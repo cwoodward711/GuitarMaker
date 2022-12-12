@@ -1,0 +1,153 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\**" />
+    <Compile Remove="Resources\Jack\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <EmbeddedResource Remove="Resources\Jack\**" />
+    <None Remove="Images\**" />
+    <None Remove="Resources\Jack\**" />
+    <Page Remove="Images\**" />
+    <Page Remove="Resources\Jack\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Body\BlankImage.png" />
+    <None Remove="Resources\Body\Body_DC_Mahogany.png" />
+    <None Remove="Resources\Body\Body_DC_Maple.png" />
+    <None Remove="Resources\Body\Body_FlyingV_Blue.png" />
+    <None Remove="Resources\Body\Body_FlyingV_Green.png" />
+    <None Remove="Resources\Body\Body_FlyingV_White.png" />
+    <None Remove="Resources\Body\expBody.png" />
+    <None Remove="Resources\Body\LP.png" />
+    <None Remove="Resources\Body\SG.png" />
+    <None Remove="Resources\Bridge\Bridge_FR_Black.png" />
+    <None Remove="Resources\Bridge\Bridge_FR_Chrome.png" />
+    <None Remove="Resources\Bridge\Bridge_FR_Gold.png" />
+    <None Remove="Resources\Bridge\Bridge_HT_Black.png" />
+    <None Remove="Resources\Bridge\Bridge_HT_Chrome.png" />
+    <None Remove="Resources\Bridge\Bridge_TOM_Black.png" />
+    <None Remove="Resources\Bridge\Bridge_TOM_Chrom.png" />
+    <None Remove="Resources\Bridge\Bridge_TOM_Gold.png" />
+    <None Remove="Resources\favicon.ico" />
+    <None Remove="Resources\Fretboard\Fretboard_Ebony.PNG" />
+    <None Remove="Resources\Fretboard\Fretboard_Maple.PNG" />
+    <None Remove="Resources\Fretboard\Fretboard_Rosewood.PNG" />
+    <None Remove="Resources\Head\Head_VHS_Black.png" />
+    <None Remove="Resources\Head\Head_VHS_DBlue.png" />
+    <None Remove="Resources\Head\Head_VHS_DRed.png" />
+    <None Remove="Resources\Head\TrussRodCover.PNG" />
+    <None Remove="Resources\Knob\Knob_Bell_Black.png" />
+    <None Remove="Resources\Knob\Knob_Bell_Cream.png" />
+    <None Remove="Resources\Knob\Knob_Bell_White.png" />
+    <None Remove="Resources\Knob\Knob_Dome_Black.png" />
+    <None Remove="Resources\Knob\Knob_Dome_Chrome.png" />
+    <None Remove="Resources\Nut\Nut_Lock_Black.png" />
+    <None Remove="Resources\Nut\Nut_NonLock_Black.PNG" />
+    <None Remove="Resources\Nut\Nut_NonLock_White.png" />
+    <None Remove="Resources\PartsList.json" />
+    <None Remove="Resources\Pickup\none.png" />
+    <None Remove="Resources\Pickup\Pickup_Hum_Black.PNG" />
+    <None Remove="Resources\Pickup\Pickup_SC_Black.png" />
+    <None Remove="Resources\Switch\Switch_3Way_Black.PNG" />
+    <None Remove="Resources\Switch\Switch_3Way_White.png" />
+    <None Remove="Resources\Switch\Switch_5Way_Black.png" />
+    <None Remove="Resources\Switch\Switch_5Way_Cream.png" />
+    <None Remove="Resources\Switch\Switch_5Way_White.png" />
+    <None Remove="Resources\Switch\Swithc_5Way_Cream.png" />
+    <None Remove="Resources\Switch\Swtich_5Way_White.png" />
+    <None Remove="Resources\woodpanel.jpg" />
+    <None Remove="Resources\WoodTexture.jpg" />
+    <None Remove="woodpanel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Body\SG.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\PartsList.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dragablz" Version="0.0.3.223" />
+    <PackageReference Include="FakeItEasy" Version="7.3.1" />
+    <PackageReference Include="MaterialDesignColors" Version="2.0.5" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.2" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\BlankImage.png" />
+    <Resource Include="Resources\Body\Body_DC_Mahogany.png" />
+    <Resource Include="Resources\Body\Body_DC_Maple.png" />
+    <Resource Include="Resources\Body\Body_FlyingV_Blue.png" />
+    <Resource Include="Resources\Body\Body_FlyingV_Green.png" />
+    <Resource Include="Resources\Body\Body_FlyingV_White.png" />
+    <Resource Include="Resources\Body\expBody.png" />
+    <Resource Include="Resources\Body\LP.png" />
+    <Resource Include="Resources\Bridge\Bridge_FR_Black.png" />
+    <Resource Include="Resources\Bridge\Bridge_FR_Chrome.png" />
+    <Resource Include="Resources\Bridge\Bridge_FR_Gold.png" />
+    <Resource Include="Resources\Bridge\Bridge_HT_Black.png" />
+    <Resource Include="Resources\Bridge\Bridge_HT_Chrome.png" />
+    <Resource Include="Resources\Bridge\Bridge_TOM_Black.png" />
+    <Resource Include="Resources\Bridge\Bridge_TOM_Chrom.png" />
+    <Resource Include="Resources\Bridge\Bridge_TOM_Gold.png" />
+    <Resource Include="Resources\favicon.ico" />
+    <Resource Include="Resources\Fretboard\Fretboard_Ebony.PNG" />
+    <Resource Include="Resources\Fretboard\Fretboard_Maple.PNG" />
+    <Resource Include="Resources\Fretboard\Fretboard_Rosewood.PNG" />
+    <Resource Include="Resources\Head\Head_VHS_Black.png" />
+    <Resource Include="Resources\Head\Head_VHS_DBlue.png" />
+    <Resource Include="Resources\Head\Head_VHS_DRed.png" />
+    <Resource Include="Resources\Head\TrussRodCover.PNG" />
+    <Resource Include="Resources\Knob\Knob_Bell_Black.png" />
+    <Resource Include="Resources\Knob\Knob_Bell_Cream.png" />
+    <Resource Include="Resources\Knob\Knob_Bell_White.png" />
+    <Resource Include="Resources\Knob\Knob_Dome_Black.png" />
+    <Resource Include="Resources\Knob\Knob_Dome_Chrome.png" />
+    <Resource Include="Resources\Nut\Nut_Lock_Black.png" />
+    <Resource Include="Resources\Nut\Nut_NonLock_Black.PNG" />
+    <Resource Include="Resources\Nut\Nut_NonLock_White.png" />
+    <Resource Include="Resources\Pickup\none.png" />
+    <Resource Include="Resources\Pickup\Pickup_Hum_Black.PNG" />
+    <Resource Include="Resources\Pickup\Pickup_SC_Black.png" />
+    <Resource Include="Resources\Switch\Switch_3Way_Black.PNG" />
+    <Resource Include="Resources\Switch\Switch_3Way_White.png" />
+    <Resource Include="Resources\Switch\Switch_5Way_Black.png" />
+    <Resource Include="Resources\Switch\Switch_5Way_Cream.png" />
+    <Resource Include="Resources\Switch\Switch_5Way_White.png" />
+    <Resource Include="Resources\woodpanel.jpg" />
+    <Resource Include="Resources\WoodTexture.jpg" />
+    <Resource Include="woodpanel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

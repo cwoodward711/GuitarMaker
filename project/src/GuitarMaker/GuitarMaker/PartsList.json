@@ -1,0 +1,180 @@
+{
+  "Body": 
+  [
+    {
+      "no": "0",
+      "name": "7/8 S-Style",
+      "price": 210.00,
+      "wood":["Maple", "Mahogany"],
+      "source": "warmoth.com"
+    },
+    {
+      "no": "1",
+      "name": "Flying V",
+      "price": 240.00,
+      "wood":["Maple", "Mahogany"],
+      "source": "warmoth.com"
+    }
+  ],
+  "Neck": 
+  [
+    {
+      "no": "0",
+      "name": "Hockey Stick",
+      "price": [168.00, 170.00],
+      "wood":["Maple", "Mahogany"],
+      "source": "warmoth.com"
+    },
+    {
+      "no": "1",
+      "name": "Classic Stratocaster",
+      "price": [152.00, 172.00],
+      "wood":["Maple", "Mahogany"],
+      "source": "warmoth.com"
+    }
+  ],
+  "Fretboard": 
+  [
+    {
+      "no": "0",
+      "name": "Ebony Neck",
+      "price": 120.00,
+      "source": "warmoth.com"
+    },
+    {
+      "no": "1",
+      "name": "Maple Neck",
+      "price": 85.00,
+      "source": "warmoth.com"
+    }
+  ],
+  "Nut": 
+  [
+    {
+      "no": "0",
+      "name": "White Nuts",
+      "price": 13.97,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "Black Nuts",
+      "price": 12.67,
+      "source": "Amazon.com"
+    }
+  ],
+  "Tuner": 
+  [
+    {
+      "no": "0",
+      "name": "Non-Locking Tuners - Black",
+      "price": 130.00,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "Locking Tuners - Chrome",
+      "price": 89.99,
+      "source": "Amazon.com"
+    }
+  ],
+  "Pickup": 
+  [
+    {
+      "no": "0",
+      "name": "EMG 81 - Humbucker",
+      "price": 99.00,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "SSL1 - Single Coil",
+      "price": 59.00,
+      "source": "Amazon.com"
+    }
+  ],
+  "Bridge": 
+  [
+    {
+      "no": "0",
+      "name": "Standard Locking Bridge",
+      "price": 134.00,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "Tremolo",
+      "price": 219.00,
+      "source": "Floydrose.com"
+    }
+  ],
+  "Knobs": 
+  [
+    {
+      "no": "0",
+      "name": "Dome Style",
+      "price": 10.00,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "Bell Style",
+      "price": 10.00,
+      "source": "Amazon.com"
+    }
+  ],
+  "Switch": 
+  [
+    {
+      "no": "0",
+      "name": "3-Way Switch",
+      "price": 15.99,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "5-Way Switch",
+      "price": 9.99,
+      "source": "Amazon.com"
+    }
+  ],
+  "Jack": 
+  [
+    {
+      "no": "0",
+      "name": "Standard",
+      "price": 5.79,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "Fender",
+      "price": 10.99,
+      "source": "Amazon.com"
+    }
+  ],
+  "Strap_Peg": 
+  [
+    {
+      "no": "0",
+      "name": "Standard",
+      "price": 6.99,
+      "source": "Amazon.com"
+    },
+  ],
+  "Pickguard": 
+  [
+    {
+      "no": "0",
+      "name": "Flying V Pickguard",
+      "price": 13.57,
+      "source": "Amazon.com"
+    },
+    {
+      "no": "1",
+      "name": "Double Cut Pickguard",
+      "price": 8.74,
+      "source": "Amazon.com"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "Body": [
+    {
+      "name": "Double Cut Body - Maple",
+      "default-price": 210.00,
+      "image": "pack://application:,,,/Resources/Body/Body_DC_Maple.png"
+    },
+    {
+      "name": "Double Cut Body - Mahogany",
+      "default-price": 210.00,
+      "image": "pack://application:,,,/Resources/Body/Body_DC_Mahogany.png"
+    },
+    {
+      "name": "Flying V Body - Blue",
+      "default-price": 240.00,
+      "image": "pack://application:,,,/Resources/Body/Body_FlyingV_Blue.png"
+    },
+    //{
+    //  "name": "Flying V Body - Green",
+    //  "default-price": 240.00,
+    //  "image": "pack://application:,,,/Resources/Body/Body_FlyingV_Green.png"
+    //},
+    //{
+    //  "name": "Flying V Body - White",
+    //  "default-price": 240.00,
+    //  "image": "pack://application:,,,/Resources/Body/Body_FlyingV_White.png"
+    //},
+    {
+      "name": "Explorer Body - Purple",
+      "default-price": 240.00,
+      "image": "pack://application:,,,/Resources/Body/expBody.png"
+    },
+    {
+      "name": "Les Paul Body - Tan",
+      "default-price": 240.00,
+      "image": "pack://application:,,,/Resources/Body/LP.png"
+    },
+    {
+      "name": "SG Body - Lime Green",
+      "default-price": 240.00,
+      "image": "pack://application:,,,/Resources/Body/SG.png"
+    }
+
+
+  ],
+  "Headstock": [
+    {
+      "name": "V Headstock - Black",
+      "default-price": 200.00,
+      "image": "pack://application:,,,/Resources/Head/Head_VHS_Black.png"
+    },
+    {
+      "name": "V Headstock - Blue",
+      "default-price": 200.00,
+      "image": "pack://application:,,,/Resources/Head/Head_VHS_DBlue.png"
+    },
+    {
+      "name": "V Headstock - Red",
+      "default-price": 200.00,
+      "image": "pack://application:,,,/Resources/Head/Head_VHS_DRed.png"
+    }
+  ],
+  "Fretboard": [
+    {
+      "name": "Fretboard - Ebony",
+      "default-price": 120.00,
+      "image": "pack://application:,,,/Resources/Fretboard/Fretboard_Ebony.png"
+    },
+    {
+      "name": "Fretboard - Maple",
+      "default-price": 85.00,
+      "image": "pack://application:,,,/Resources/Fretboard/Fretboard_Maple.png"
+    },
+    {
+      "name": "Fretboard - Rosewood",
+      "default-price": 85.00,
+      "image": "pack://application:,,,/Resources/Fretboard/Fretboard_Rosewood.png"
+    }
+  ],
+  "Nut": [
+    {
+      "name": "Locking Nuts- Black",
+      "default-price": 41.00,
+      "image": "pack://application:,,,/Resources/Nut/Nut_Lock_Black.png"
+    },
+    {
+      "name": "Non-Locking Nuts - Black",
+      "default-price": 59.99,
+      "image": "pack://application:,,,/Resources/Nut/Nut_NonLock_Black.png"
+    },
+    {
+      "name": "Non-Locking Nuts - White",
+      "default-price": 59.99,
+      "image": "pack://application:,,,/Resources/Nut/Nut_NonLock_White.png"
+    }
+  ],
+  "Tuner": [
+    {
+      "name": "Locking Tuners - Black",
+      "default-price": 130.00,
+      "image": null
+    },
+    {
+      "name": "Non-Locking Tuners - Black",
+      "default-price": 89.99,
+      "image": null
+    }
+  ],
+  "Pickup_B": [
+    {
+      "name": "EMG 81 Humbucker Pickup - Black",
+      "default-price": 99.00,
+      "image": "pack://application:,,,/Resources/Pickup/Pickup_Hum_Black.png"
+    },
+    {
+      "name": "Single Coil Pickup - Black",
+      "default-price": 59.00,
+      "image": "pack://application:,,,/Resources/Pickup/Pickup_SC_Black.png"
+    },
+    {
+      "name": "no image",
+      "default-price": 0,
+      "source": "",
+      "image": "pack://application:,,,/Resources/Pickup/none.png"
+    }
+  ],
+  "Pickup_M": [
+    {
+      "name": "EMG 81 Humbucker Pickup - Black",
+      "default-price": 99.00,
+      "image": "pack://application:,,,/Resources/Pickup/Pickup_Hum_Black.png"
+    },
+    {
+      "name": "Single Coil Pickup - Black",
+      "default-price": 59.00,
+      "image": "pack://application:,,,/Resources/Pickup/Pickup_SC_Black.png"
+    },
+    {
+
+      "name": "no image",
+      "default-price": 0,
+      "source": "",
+      "image": "pack://application:,,,/Resources/Pickup/none.png"
+    }
+  ],
+  "Pickup_N": [
+    {
+      "name": "EMG 81 Humbucker Pickup - Black",
+      "default-price": 99.00,
+      "image": "pack://application:,,,/Resources/Pickup/Pickup_Hum_Black.png"
+    },
+    {
+      "name": "Single Coil Pickup - Black",
+      "default-price": 59.00,
+      "image": "pack://application:,,,/Resources/Pickup/Pickup_SC_Black.png"
+    },
+    {
+      "name": "no image",
+      "default-price": 0,
+      "source": "",
+      "image": "pack://application:,,,/Resources/Pickup/none.png"
+    }
+  ],
+  "Bridge": [
+    {
+      "name": "Tune-O-Matic Bridge - Black",
+      "default-price": 134.00,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_TOM_Black.png"
+    },
+    {
+      "name": "Tune-O-Matic Bridge - Chrome",
+      "default-price": 134.00,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_TOM_Chrom.png"
+    },
+    {
+      "name": "Tune-O-Matic Bridge - Gold",
+      "default-price": 134.00,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_TOM_Gold.png"
+    },
+    {
+      "name": "Hard Tail Bridge - Black",
+      "default-price": 62.56,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_HT_Black.png"
+    },
+    {
+      "name": "Hard Tail Bridge - Chrome",
+      "default-price": 62.56,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_HT_Chrome.png"
+    },
+    {
+      "name": "Floyd Rose - Black",
+      "default-price": 219.00,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_FR_Black.png"
+    },
+    {
+      "name": "Floyd Rose - Chrome",
+      "default-price": 219.00,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_FR_Chrome.png"
+    },
+    {
+      "name": "Floyd Rose - Gold",
+      "default-price": 219.00,
+      "image": "pack://application:,,,/Resources/Bridge/Bridge_FR_Gold.png"
+    }
+  ],
+  "Knob": [
+    {
+      "name": "Dome Knobs - Black",
+      "default-price": 10.00,
+      "image": "pack://application:,,,/Resources/Knob/Knob_Dome_Black.png"
+    },
+    {
+      "name": "Dome Knobs - Chrome",
+      "default-price": 10.00,
+      "image": "pack://application:,,,/Resources/Knob/Knob_Dome_Chrome.png"
+    },
+    {
+      "name": "Bell Knobs - Black",
+      "default-price": 10.00,
+      "image": "pack://application:,,,/Resources/Knob/Knob_Bell_Black.png"
+    },
+    {
+      "name": "Bell Knobs - White",
+      "default-price": 10.00,
+      "image": "pack://application:,,,/Resources/Knob/Knob_Bell_White.png"
+    },
+    {
+      "name": "Bell Knobs - Cream",
+      "default-price": 10.00,
+      "image": "pack://application:,,,/Resources/Knob/Knob_Bell_Cream.png"
+    }
+  ],
+  "Switch": [
+    {
+      "name": "3-Way Switch - Black",
+      "default-price": 15.99,
+      "image": "pack://application:,,,/Resources/Switch/Switch_3Way_Black.png"
+    },
+    {
+      "name": "3-Way Switch - White",
+      "default-price": 15.99,
+      "image": "pack://application:,,,/Resources/Switch/Switch_3Way_White.png"
+    },
+    {
+      "name": "5-Way Switch - Black",
+      "default-price": 9.99,
+      "image": "pack://application:,,,/Resources/Switch/Switch_5Way_Black.png"
+    },
+    {
+      "name": "5-Way Switch - White",
+      "default-price": 9.99,
+      "image": "pack://application:,,,/Resources/Switch/Switch_5Way_White.png"
+    },
+    {
+      "name": "5-Way Switch - Cream",
+      "default-price": 9.99,
+      "image": "pack://application:,,,/Resources/Switch/Switch_5Way_Cream.png"
+    }
+  ],
+  "Jack": [
+    {
+      "name": "Standard Jack - Black",
+      "default-price": 5.79,
+      "image": null
+    },
+    {
+      "name": "Standard Jack - Chrome",
+      "default-price": 5.79,
+      "image": null
+    },
+    {
+      "name": "Standard Jack - Gold",
+      "default-price": 5.79,
+      "image": null
+    },
+    {
+      "name": "Fender Jack - Black",
+      "default-price": 10.99,
+      "image": null
+    },
+    {
+      "name": "Fender Jack - Chrome",
+      "default-price": 10.99,
+      "image": null
+    },
+    {
+      "name": "Fender Jack - Gold",
+      "default-price": 10.99,
+      "image": null
+    }
+  ],
+  "Strap_Peg": [
+    {
+      "name": "Standard Strap Pegs - Black",
+      "default-price": 6.99,
+      "image": null
+    },
+    {
+      "name": "Standard Strap Pegs - Chrome",
+      "default-price": 6.99,
+      "image": null
+    },
+    {
+      "name": "Standard Strap Pegs - Gold",
+      "default-price": 6.99,
+      "image": null
+    }
+  ],
+  "Pickguard": [
+    {
+      "name": "Flying V Pickguard - Black",
+      "default-price": 13.57,
+      "image": null
+    },
+    {
+      "name": "Flying V Pickguard - White",
+      "default-price": 13.57,
+      "image": null
+    },
+    {
+      "name": "Flying V Pickguard - Cream",
+      "default-price": 13.57,
+      "image": null
+    },
+    {
+      "name": "Flying V Pickguard - Pearl",
+      "default-price": 13.57,
+      "image": null
+    },
+    {
+      "name": "Flying V Pickguard - Clear",
+      "default-price": 13.57,
+      "image": null
+    },
+    {
+      "name": "Double Cut Pickguard - Black",
+      "default-price": 8.74,
+      "image": null
+    },
+    {
+      "name": "Double Cut Pickguard - White",
+      "default-price": 8.74,
+      "image": null
+    },
+    {
+      "name": "Double Cut Pickguard - Cream",
+      "default-price": 8.74,
+      "image": null
+    },
+    {
+      "name": "Double Cut Pickguard - Pearl",
+      "default-price": 8.74,
+      "image": null
+    },
+    {
+      "name": "Double Cut Pickguard - Clear",
+      "default-price": 8.74,
+      "image": null
+    }
+  ]
+}
